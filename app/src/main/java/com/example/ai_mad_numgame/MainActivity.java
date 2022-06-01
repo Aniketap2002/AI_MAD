@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     int matchCounter=0;
     int []performance={-1,-1,-1,-1,-1,-1}; //score of a game is updated in this array
     int []score={-1,-1,-1}; //score of each match is updated in this array. A total of three matches in a game
-    String operators[]={"+","-","*","/"};
+    String operators[]={" + "," - "," * "," / "};
      int correctButton;//which button will have the correct answer (tag of that button)
     Random random=new Random(); //You will generate randdom alegebra questions
     TextView textView2;
