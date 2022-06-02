@@ -26,7 +26,7 @@ import java.util.Set;
 
 public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
-    int matchCounter=0;
+    int matchCounter = 0;
     int []performance={-1,-1,-1,-1,-1,-1}; //score of a game is updated in this array
     int []score={-1,-1,-1}; //score of each match is updated in this array. A total of three matches in a game
     String operators[]={"+","-","*","/"};
